@@ -86,3 +86,15 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = SortingVisualizer(root)
     root.mainloop()
+from controller import Controller
+from renderer import Renderer
+
+
+def main():
+    controller = Controller()
+    renderer = Renderer(controller)
+    renderer.run()
+
+
+if __name__ == "__main__":
+    main()

@@ -26,7 +26,7 @@ This project helps users understand sorting techniques by displaying the sorting
 ## 🛠️ Built With
 
 - Python
--  Tkinter(frame work)
+-  Tkinter
 
 ## 📦 Installation
 
